@@ -115,9 +115,9 @@ header ul li:hover a
  margin-top: 10%;
 }
 /* hacer responsive el button */
-@media(min-width: 768px){
+@media(min-width: 730px){
     .btn{
-        padding: 15px 105 px;
+        padding: 150px 105 px;
         background-color: #9cc330;
     }
 }
@@ -130,16 +130,6 @@ header ul li:hover a
     max-height: 90vh;
    
 }
-
-@media(min-width: 700px){
-
-    .men{
-        width: 30%;
-    }
-
-}
-
-
 #services,
 #portfolio, 
 #contact
