@@ -75,6 +75,23 @@ header ul li:hover a
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
 }
+
+/*liminar fondo de la imagen despues de una pantalla más pequeña */
+@media (max-width: 400px) {
+    #home::before {
+        content: none;
+        position: static;
+        bottom: auto;
+        right: auto;
+        width: auto;
+        height: auto;
+        background: none;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+}
+
+
 #home .content 
 {
     position:relative;
@@ -114,11 +131,11 @@ header ul li:hover a
  text-decoration:none;
  margin-top: 10%;
 }
-/* hacer responsive el button */
-@media(min-width: 730px){
+/* hacer cambiar el color del button */
+@media(min-width: 400px){
     .btn{
         padding: 150px 105 px;
-        background-color: #9cc330;
+        background-color: #edff21;
     }
 }
 
@@ -130,6 +147,13 @@ header ul li:hover a
     max-height: 90vh;
    
 }
+
+@media (max-width: 400px) {
+    #home .men {
+        display: none;
+    }
+}
+
 #services,
 #portfolio, 
 #contact
@@ -275,7 +299,7 @@ transition: 0.5s;
     color:#30fe6c;
 }
 
-/*now, mare it responsive */
+/*now, make it responsive */
 @media (max-width: 900px){
    header
     {
