@@ -24,7 +24,7 @@ header
 header .logo
 {
     position: relative;
-    color: #fff; 
+    color: #97974f; 
     text-decoration: none;
     font-weight: 700;
     font-size: 2em;
@@ -42,21 +42,21 @@ header ul li
 header ul li a
 {
 text-decoration: none;
-color: #fff; 
+color: #aaa; 
 font-weight: 500;
 font-size: 1.25em;
 }
 header ul li.active a,
 header ul li:hover a
 {
-    color: #30fe6c;
+    color: #f2bc94;
 }
 #home
 {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: #344038;
+    background: #143d59;
     display: flex;  
     flex-wrap: wrap;
     justify-content: space-berween;
@@ -71,7 +71,7 @@ header ul li:hover a
     right:0;
     width: 50%;
     height: 25%;
-    background: #30fe6c;
+    background: #D4ac0d;
     border-top-right-radius: 10%;
     border-top-left-radius: 10%;
 }
@@ -105,12 +105,12 @@ header ul li:hover a
 {
     position: relative;
     font-size: 4em;
-    color:#30fe6c;
+    color:#f4b414;
 }
 #home .content p 
 {
     position: relative;
-    color:#fff;
+    color:#aaa;
     font-size:1.2em;
     line-height:1.6em;
 } 
@@ -122,7 +122,7 @@ header ul li:hover a
  min-width: 10%;
  font-size:1.25em;
  max-width:200px;
- background:#30fe6c;
+ background:#f49f1c;
  color:#222;
  text-align: center;
  padding:18px 33px;
@@ -135,7 +135,7 @@ header ul li:hover a
 @media(min-width: 400px){
     .btn{
         padding: 150px 105 px;
-        background-color: #edff21;
+        background-color: #a7cff4;
     }
 }
 
@@ -159,7 +159,7 @@ header ul li:hover a
 #contact
 {
     position: relative;
-    background: #34353a;
+    background: #1b2631;
     min-height: 100vh;
     padding: 120px 100px;
     display:flex;
@@ -178,13 +178,13 @@ header ul li:hover a
 .secText h2
 {
     font-size:3em;
-    color:#fff;
+    color:#ffa781;
 }
 .secText p
 {
     max-width:700px;
     text-align: center;
-    color: #aaaa;
+    color: #aaa;
     font-size:1.1em;
     line-height:1.5em;
 }
@@ -197,14 +197,14 @@ header ul li:hover a
 }
 #services .content .servicesBx
 {
-    background: #2e2f34;
+    background: #1f3a3d;
     padding:50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    border: 2px solid #2e2f34; 
+    border: 2px solid #1f3a3d; 
 }
 #services .content .servicesBx:hover
 {
@@ -234,7 +234,7 @@ transition: 0.5s;
 }
 #portfolio
 {
-    background: #2e2f34;
+    background: #143d59;
     text-align: center;
 }
 #portfolio .content
@@ -261,7 +261,7 @@ transition: 0.5s;
 }
 #contact .content a  
 {
-    background: #2e2f34;
+    background: #1f3a3d;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -273,11 +273,11 @@ transition: 0.5s;
 }
 #contact .content a:hover 
 {
-    background: #30fe6c;
+    background: #79b19edd;
 }
 #contact .content a ion-icon
 {
-    color: #30fe6c;
+    color: #68f4f4dd;
     font-size: 1.5em;
     margin-right: 10px;
     transition: 0.5s;
@@ -296,7 +296,7 @@ transition: 0.5s;
 }
 .copyrights a
 {
-    color:#30fe6c;
+    color:#68f4f4dd;
 }
 
 /*now, make it responsive */
