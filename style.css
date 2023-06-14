@@ -142,7 +142,6 @@ header ul li:hover a
     .btn{
         padding: 150px 105 px;
         background-image: linear-gradient(150deg,#9500ff,#09f,#00ddff );
-        display: flex;
         cursor: pointer;
         transition: 3s;                
     } 
